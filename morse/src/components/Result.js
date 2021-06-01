@@ -64,11 +64,20 @@ const morsecode = {
 
 // expected result .. / .-.. --- ...- . / -.-- --- ..-
 const Result = (props) => {
-  //console.log(props.userInput);
+  let str = "";
   let strone = props.userInput.toLowerCase().split("");
-  let str = strone.map((element) => {
-    return morsecode[element];
-  });
+
+  const corrector = strone.some((morsecode) =>
+    Object.entries(morsecode).join("").includes("€")
+  );
+  if (!corrector) {
+    str = strone.map((element) => {
+      return morsecode[element];
+    });
+  } else {
+    str = "we live in 1890 there,  € are not exist ";
+  }
+
   //console.log(str.join(""));
 
   return <p>{str}</p>;

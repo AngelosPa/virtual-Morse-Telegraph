@@ -13,6 +13,7 @@ function App() {
 
   return (
     <div className="body-container">
+      <h1>Telegraph</h1>
       <input
         type="text"
         placeholder="send your message"
@@ -20,8 +21,12 @@ function App() {
         value={userInput}
         onChange={changeHandle}
       ></input>
-      <p>telegraph</p>
+
       <div>
+        <p>your coded signal is:</p>
+        {
+          //stelnoume san parametro to userInput sto function mas k to pairnei ws props
+        }
         <Result userInput={userInput} />
       </div>
     </div>
