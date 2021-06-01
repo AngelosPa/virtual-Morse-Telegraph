@@ -4,10 +4,26 @@
   box-sizing: border-box;
   font-size: 28px;
 }
+body {
+  background-color: rgb(143, 113, 109);
+  width: 100vw;
+  height: 100vh;
+}
 .body-container {
   background-color: rgb(143, 113, 109);
   width: 100vw;
   height: 100vh;
+  // @include flexthing;
+  // flex-direction: column;
+  display: block;
+}
+.intro,
+.outputi,
+.anim,
+.header {
   @include flexthing;
-  flex-direction: column;
+
+  width: 90%;
+  height: auto;
+  margin: 1rem;
 }

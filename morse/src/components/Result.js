@@ -37,11 +37,7 @@ const morsecode = {
   8: "___..",
   9: "____.",
   0: "_____",
-  /*
-   * Note: Some operators prefer "!" as "___." and others as "_._.__"
-   * ARRL message format has most punctuation spelled out, as many symbols'
-   * encodings conflict with procedural signals (e.g. "=" and "BT").
-   */
+
   ".": "._._._",
   ",": "__..__",
   "?": "..__..",
@@ -75,11 +71,18 @@ const Result = (props) => {
       return morsecode[element];
     });
   } else {
-    str = "we live in 1890 there,  € are not exist ";
+    str = "we live in 1890! € are not exist ";
   }
 
   //console.log(str.join(""));
 
-  return <p>{str}</p>;
+  return (
+    <textarea
+      rows="10"
+      cols="18"
+      placeholder="your coded signal is:"
+      value={str}
+    ></textarea>
+  );
 };
 export default Result;

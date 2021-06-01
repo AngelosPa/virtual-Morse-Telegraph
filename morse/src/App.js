@@ -13,21 +13,31 @@ function App() {
 
   return (
     <div className="body-container">
-      <h1>Telegraph</h1>
-      <input
-        type="text"
-        placeholder="send your message"
-        // ananewnoume to value me oti grafei o user
-        value={userInput}
-        onChange={changeHandle}
-      ></input>
-
-      <div>
-        <p>your coded signal is:</p>
+      <div className="header">
+        {" "}
+        <h1>Telegraph</h1>
+      </div>
+      <div className="intro">
+        <textarea
+          //type="text"
+          rows="5"
+          cols="18"
+          placeholder="send your message"
+          // ananewnoume to value me oti grafei o user
+          value={userInput}
+          onChange={changeHandle}
+        ></textarea>
+      </div>
+      <div className="outputi">
         {
           //stelnoume san parametro to userInput sto function mas k to pairnei ws props
         }
         <Result userInput={userInput} />
+      </div>
+      <div className="anim">
+        <div className="telegraph animated fadeInDown">
+          <div className="telegraph__tapper"></div>
+        </div>
       </div>
     </div>
   );
