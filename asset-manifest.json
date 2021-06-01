@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/virtual-Morse-Telegraph/static/css/main.38c543f1.chunk.css",
-    "main.js": "/virtual-Morse-Telegraph/static/js/main.dfd78ce5.chunk.js",
-    "main.js.map": "/virtual-Morse-Telegraph/static/js/main.dfd78ce5.chunk.js.map",
+    "main.css": "/virtual-Morse-Telegraph/static/css/main.422cf4d4.chunk.css",
+    "main.js": "/virtual-Morse-Telegraph/static/js/main.359c43b2.chunk.js",
+    "main.js.map": "/virtual-Morse-Telegraph/static/js/main.359c43b2.chunk.js.map",
     "runtime-main.js": "/virtual-Morse-Telegraph/static/js/runtime-main.0679ba48.js",
     "runtime-main.js.map": "/virtual-Morse-Telegraph/static/js/runtime-main.0679ba48.js.map",
     "static/js/2.65cfb6e4.chunk.js": "/virtual-Morse-Telegraph/static/js/2.65cfb6e4.chunk.js",
     "static/js/2.65cfb6e4.chunk.js.map": "/virtual-Morse-Telegraph/static/js/2.65cfb6e4.chunk.js.map",
     "index.html": "/virtual-Morse-Telegraph/index.html",
-    "static/css/main.38c543f1.chunk.css.map": "/virtual-Morse-Telegraph/static/css/main.38c543f1.chunk.css.map",
+    "static/css/main.422cf4d4.chunk.css.map": "/virtual-Morse-Telegraph/static/css/main.422cf4d4.chunk.css.map",
     "static/js/2.65cfb6e4.chunk.js.LICENSE.txt": "/virtual-Morse-Telegraph/static/js/2.65cfb6e4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0679ba48.js",
     "static/js/2.65cfb6e4.chunk.js",
-    "static/css/main.38c543f1.chunk.css",
-    "static/js/main.dfd78ce5.chunk.js"
+    "static/css/main.422cf4d4.chunk.css",
+    "static/js/main.359c43b2.chunk.js"
   ]
 }
