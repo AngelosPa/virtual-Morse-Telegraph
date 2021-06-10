@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="body-container">
       <div className="header">
-        {" "}
+        
         <h1>Telegraph</h1>
       </div>
       <div className="intro">
