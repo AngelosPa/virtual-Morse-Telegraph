@@ -24,11 +24,11 @@ An app which simply converts texts to morse signal..
     ·
     <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
   </p>
-  ![check here](telegraph.png)
+  
 </p>
 
 
-
+![check here](telegraph.png)
 
 
 
