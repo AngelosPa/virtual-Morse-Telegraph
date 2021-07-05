@@ -19,10 +19,7 @@ An app which simply converts texts to morse signal..
     <br />
     <br />
     <a href="https://angelospa.github.io/virtual-Morse-Telegraph/">View Demo</a>
-    ·
-    
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+
   </p>
   
 </p>
